@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -41,8 +40,8 @@
           <svg
             class="open-mobile-menu-icon"
             width="24"
-            hight="24"
-            aria-label="mobile-menu-open-icon"
+            height="24"
+            aria-label="mobile menu open icon"
           >
             <use href="./images/icons.svg#burger"></use>
           </svg>
@@ -64,14 +63,14 @@
       </div>
     </header>
     <main>
-      <!-- <section class="first-slide">
+      <section class="first-slide">
         <div class="first-slide-container container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="second-slide">
+      <section class="second-slide">
         <div class="container">
           <h2 class="visually-hidden">Our Strengths</h2>
           <ul class="second-slide-info">
@@ -125,9 +124,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="third-slide">
+      <section class="third-slide">
         <div class="container">
           <h2 class="third-slide-title">Our Team</h2>
           <ul class="third-slide-list">
@@ -296,16 +295,28 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="fourth-slide">
+      <section class="fourth-slide">
         <div class="container">
           <h2 class="fourth-slide-title">Our Portfolio</h2>
           <ul class="fourth-slide-list">
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/bank-app.jpg"
+                  srcset="
+                    ./images/1x/banking-app-mobile.jpg      288w,
+                    ./images/2x/banking-app-@2xmobile.jpg   576w,
+                    ./images/3x/banking-app-@3xmobile.jpg   864w,
+                    ./images/1x/banking-app-tablet.jpg      356w,
+                    ./images/2x/banking-app-@2xtablet.jpg   712w,
+                    ./images/3x/banking-app-@3xtablet.jpg  1068w,
+                    ./images/1x/banking-app-desktop.jpg     360w,
+                    ./images/2x/banking-app-@2xdesktop.jpg  720w,
+                    ./images/3x/banking-app-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/banking-app-mobile.jpg"
                   alt="Bank App"
                   width="360"
                   height="300"
@@ -324,7 +335,19 @@
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/payment-by-card.jpg"
+                  srcset="
+                    ./images/1x/payment-by-card-mobile.jpg      288w,
+                    ./images/2x/payment-by-card-@2xmobile.jpg   576w,
+                    ./images/3x/payment-by-card-@3xmobile.jpg   864w,
+                    ./images/1x/payment-by-card-tablet.jpg      356w,
+                    ./images/2x/payment-by-card-@2xtablet.jpg   712w,
+                    ./images/3x/payment-by-card-@3xtablet.jpg  1068w,
+                    ./images/1x/payment-by-card-desktop.jpg     360w,
+                    ./images/2x/payment-by-card-@2xdesktop.jpg  720w,
+                    ./images/3x/payment-by-card-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/payment-by-card-mobile.jpg"
                   alt="Payment by card"
                   width="360"
                   height="300"
@@ -346,7 +369,19 @@
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/1x/meditation-app-mobile.jpg      288w,
+                    ./images/2x/meditation-app-@2xmobile.jpg   576w,
+                    ./images/3x/meditation-app-@3xmobile.jpg   864w,
+                    ./images/1x/meditation-app-tablet.jpg      356w,
+                    ./images/2x/meditation-app-@2xtablet.jpg   712w,
+                    ./images/3x/meditation-app-@3xtablet.jpg  1068w,
+                    ./images/1x/meditation-app-desktop.jpg     360w,
+                    ./images/2x/meditation-app-@2xdesktop.jpg  720w,
+                    ./images/3x/meditation-app-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/meditation-app-mobile.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -365,7 +400,19 @@
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/taxi-driver.jpg"
+                  srcset="
+                    ./images/1x/taxi-driver-mobile.jpg      288w,
+                    ./images/2x/taxi-driver-@2xmobile.jpg   576w,
+                    ./images/3x/taxi-driver-@3xmobile.jpg   864w,
+                    ./images/1x/taxi-driver-tablet.jpg      356w,
+                    ./images/2x/taxi-driver-@2xtablet.jpg   712w,
+                    ./images/3x/taxi-driver-@3xtablet.jpg  1068w,
+                    ./images/1x/taxi-driver-desktop.jpg     360w,
+                    ./images/2x/taxi-driver-@2xdesktop.jpg  720w,
+                    ./images/3x/taxi-driver-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/taxi-driver-mobile.jpg"
                   alt="Taxi driver"
                   width="360"
                   height="300"
@@ -384,7 +431,19 @@
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/screen-wallpapers.jpg"
+                  srcset="
+                    ./images/1x/screen-wallpapers-mobile.jpg      288w,
+                    ./images/2x/screen-wallpapers-@2xmobile.jpg   576w,
+                    ./images/3x/screen-wallpapers-@3xmobile.jpg   864w,
+                    ./images/1x/screen-wallpapers-tablet.jpg      356w,
+                    ./images/2x/screen-wallpapers-@2xtablet.jpg   712w,
+                    ./images/3x/screen-wallpapers-@3xtablet.jpg  1068w,
+                    ./images/1x/screen-wallpapers-desktop.jpg     360w,
+                    ./images/2x/screen-wallpapers-@2xdesktop.jpg  720w,
+                    ./images/3x/screen-wallpapers-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/screen-wallpapers-mobile.jpg"
                   alt="Screen wallpapers"
                   width="360"
                   height="300"
@@ -403,7 +462,19 @@
             <li class="fourth-slide-list-item">
               <div class="fourth-slide-list-item-photo">
                 <img
-                  src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/1x/online-courses-mobile.jpg      288w,
+                    ./images/2x/online-courses-@2xmobile.jpg   576w,
+                    ./images/3x/online-courses-@3xmobile.jpg   864w,
+                    ./images/1x/online-courses-tablet.jpg      356w,
+                    ./images/2x/online-courses-@2xtablet.jpg   712w,
+                    ./images/3x/online-courses-@3xtablet.jpg  1068w,
+                    ./images/1x/online-courses-desktop.jpg     360w,
+                    ./images/2x/online-courses-@2xdesktop.jpg  720w,
+                    ./images/3x/online-courses-@3xdesktop.jpg 1080w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/1x/online-courses-mobile.jpg"
                   alt="Online courses"
                   width="360"
                   height="300"
@@ -421,12 +492,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="ending">
+    <footer class="ending">
       <div class="container ending-div">
         <div class="first-part-of-ending">
-          <a href="./index.html" class="logo ending-logo"
+          <a href="./index.html" class="ending-logo"
             >Web<span class="ending-logo-second-part">Studio</span></a
           >
           <p class="ending-text">
@@ -482,9 +553,11 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
-    <!-- <div class="backdrop">
+    <!-- BACKDROP -->
+
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -561,7 +634,8 @@
               type="checkbox"
               value="true"
               name="user-privacy"
-            /><label class="terms-and-conditions-label" for="user-privacy"
+            />
+            <label class="terms-and-conditions-label" for="user-privacy"
               ><span class="terms-and-conditions-icon"
                 ><svg
                   class="icon-for-user-privacy"
@@ -578,6 +652,74 @@
           <button class="modal-btn" type="button">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu">
+      <button class="mobile-menu-close-btn">
+        <svg
+          class="mobile-mebu-close-icon"
+          width="24"
+          height="24"
+          aria-label="mobile menu close icon"
+        >
+          <use href="./images/icons.svg#mobile-menu-close"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="mobile-menu-site-links">
+          <li>
+            <a
+              href="./index.html"
+              class="mobile-menu-link first-mobile-menu-link"
+              >Studio</a
+            >
+          </li>
+          <li><a href="" class="mobile-menu-link">Portfolio</a></li>
+          <li><a href="" class="mobile-menu-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="mobile-modal-phone-and-mail">
+        <ul class="mobile-modal-phone-and-mail-for-flex">
+          <li class="mobile-modal-phone-and-mail-links">
+            <a href="tel:+110001111111" class="first mobile-modal-adress-data"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-modal-phone-and-mail-links">
+            <a href="mailto:info@devstudio.com" class="mobile-modal-adress-data"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-modal-social-media">
+        <li class="mobile-modal-social-media-item">
+          <a class="mobile-modal-social-media-link" href=""
+            ><svg class="social-media-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-modal-social-media-item">
+          <a class="mobile-modal-social-media-link" href="">
+            <svg class="social-media-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-modal-social-media-item">
+          <a class="mobile-modal-social-media-link" href="">
+            <svg class="social-media-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-modal-social-media-item">
+          <a class="mobile-modal-social-media-link" href="">
+            <svg class="social-media-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
