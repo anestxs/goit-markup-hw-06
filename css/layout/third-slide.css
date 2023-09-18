@@ -1,7 +1,6 @@
 .third-slide {
     background-color: #F4F4FD;
     padding: 96px 0;
-    width: 320px;
     margin: 0 auto;
 }
 
@@ -86,10 +85,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .third-slide {
-        width: 768px;
-    }
-
     .third-slide-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -99,7 +94,6 @@
 
 @media screen and (min-width: 1158px) {
     .third-slide {
-        width: 1158px;
         padding: 120px 0;
     }
 
