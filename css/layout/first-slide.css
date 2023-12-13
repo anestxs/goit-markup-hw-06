@@ -13,7 +13,7 @@
     color: #FFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
@@ -48,6 +48,22 @@
     background-color: #404BBF;
 }
 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/2x/people-office-@2xmobile.jpg);
+    }
+}
+
+@media screen and (min-resolution: 288dpi) and (max-width: 767px),
+screen and (min-resolution: 3dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 3) and (max-width: 767px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/2x/people-office-@2xmobile.jpg);
+    }
+}
+
 /* TABLET */
 
 @media screen and (min-width: 768px) {
@@ -72,6 +88,22 @@
 
 }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/2x/people-office-@2xtablet.jpg);
+    }
+}
+
+@media screen and (min-resolution: 288dpi) and (min-width: 768px),
+screen and (min-resolution: 3dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 3) and (min-width: 768px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/3x/people-office-@3xtablet.jpg);
+    }
+}
+
 /* DESKTOP */
 
 @media screen and (min-width: 1158px) {
@@ -93,6 +125,22 @@
 
     .order-button {
         margin-top: 48px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/2x/people-office-@2xdesktop.jpg);
+    }
+}
+
+@media screen and (min-resolution: 288dpi) and (min-width: 1158px),
+screen and (min-resolution: 3dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 3) and (min-width: 1158px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/3x/people-office-@3xdesktop.jpg);
     }
 }
 

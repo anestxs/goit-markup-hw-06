@@ -81,9 +81,6 @@
     display: none;
 }
 
-.fourth-slide-image { 
-    width: 256px;
-}
 
 /* TABLET */
 
@@ -98,10 +95,6 @@
 
     .fourth-slide-list-item {
         width: calc((100% - 24px)/2);
-    }
-
-    .fourth-slide-image { 
-        width: 360px;
     }
 }
 
